@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/style.css" rel="stylesheet" />
+    <title>Aman</title>
+  <script type="module" src="./src/script.js"></script> 
+  </head>
+
+  <body class="bg-[#10121b] text-white font-sans transition-colors duration-300 custom-scrollbar">
+    <header class="bg-[#1a1c2c] p-4 fixed w-full top-0 left-0 z-50">
+      <nav class="max-w-2xl mx-auto flex justify-between items-center relative">
+        <p class="text-2xl font-bold">
+          Port<span class="text-blue-500">folio</span>
+        </p>
+        
+        <!-- Navigation Links -->
+        <ul id="nav" class="hidden md:flex space-x-7">
+          <li><a href="#" class="text-blue-500 underline">Home</a></li>
+          <li><a href="#" class="hover:text-blue-500 hover:underline">About</a></li>
+          <li><a href="#" class="hover:text-blue-500 hover:underline">Skills</a></li>
+          <li><a href="#" class="hover:text-blue-500 hover:underline">Projects</a></li>
+          <li><a href="#" class="hover:text-blue-500 hover:underline">Contact</a></li>
+        </ul>
+        
+        <!-- Theme Toggle -->
+        <span id="theme-toggle" class="cursor-pointer text-2xl md:mr-5">☀️</span>
+        
+        <!-- Hamburger Button -->
+        <span id="hamburger" class="md:hidden cursor-pointer text-2xl">🍔</span>
+      </nav>
+      
+      <!-- Mobile Navigation -->
+      <ul id="mobile-nav" class="hidden absolute top-14 left-0 w-full bg-[#1a1c2c] flex-col space-y-5 py-5 px-10 md:hidden transition-all duration-500">
+        <li><a href="#" class="text-blue-500 underline">Home</a></li>
+        <li><a href="#" class="hover:text-blue-500 hover:underline">About</a></li>
+        <li><a href="#" class="hover:text-blue-500 hover:underline">Skills</a></li>
+        <li><a href="#" class="hover:text-blue-500 hover:underline">Projects</a></li>
+        <li><a href="#" class="hover:text-blue-500 hover:underline">Contact</a></li>
+      </ul>
+    </header>
+    
+    <main class="flex flex-row items-center justify-center min-h-screen text-center p-6">
+      <section id="hero-section" class="flex flex-col md:flex-row items-center gap-x-28">
+        <div class="relative flex items-center justify-center">
+          <div class="absolute w-40 h-40 md:w-72 md:h-72 bg-blue-500 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+
+          <img loading="lazy" class="relative w-40 h-40 md:w-60 md:h-60 object-cover rounded-full border-red-600 border-s-8" src="./src/images/hero-img.png" alt="hero-image" />
+        </div>
+
+        <div class="space-x-5">
+          <h1 class="text-3xl md:text-4xl font-bold">Hey! I'm <span class="text-blue-500">Aman</span></h1>
+          <p class="text-lg text-gray-400 mt-2">Web Developer</p>
+          <div class="mt-5 space-x-5 space-y-5">
+            <button class="w-full md:w-40 py-3 px-6 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">Contact Me</button>
+            <button class="w-full md:w-40 py-3 px-6 border border-blue-500 text-blue-400 rounded-lg hover:bg-blue-700 hover:text-white">My Resume</button>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+    <div class=" w-full h-40 ">
+
+
+    </div>
+   
+  </body>
+</html>
